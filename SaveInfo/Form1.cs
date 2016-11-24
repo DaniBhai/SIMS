@@ -53,7 +53,8 @@ namespace SaveInfo
 
         }
 
-        // Changed COmment dfg fgf ff gfgf 
+        // Changed COmment dfg fgf ff gfgf  t
+        // this is second commit
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             string Query = "UPDATE ContactInfo set FirstName=@FirstName,LastName=@LastName,Email=@Email,Catagory=@Catagory,DateTime=@DateTime  WHERE PhoneNo=@PhoneNo";
